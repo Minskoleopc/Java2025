@@ -37,7 +37,6 @@ public class javaStringR {
 			i3 = i3 + 1;
 		}
 		
-		
 		// program 3
 		String city4 = "nagpur";
 		int q1 = city4.length();
@@ -48,9 +47,7 @@ public class javaStringR {
 				System.out.println(city4.charAt(i));
 		}
 		
-		
 		// program 4
-		
 		String str4 = "hello";
 		String a = str4.toUpperCase();
 		System.out.println(a);
@@ -78,9 +75,96 @@ public class javaStringR {
 		
 		boolean h = src8.endsWith("i");
 		System.out.println(h);
+				
+		String str9 = "pune"; 
+		// 0  1  2  3
+		// p  u  n  e
+		
+		System.out.println(str9.indexOf("u"));	
+		System.out.println(str9.indexOf("pune"));
+		System.out.println(str9.indexOf("P"));
 		
 		
-		// 7:30pm
+		// program 7
+		
+		String str10 = " ";
+		boolean n = str10.isEmpty();
+		System.out.println(n);
+		
+		boolean m = str10.isBlank();
+		System.out.println(m);
+		
+		// program 8
+		
+		// String + String ====> String
+		// number + String ====> String 
+		// String + number ====> String 
+		// number + number ====> number
+		
+		int i  = 10;
+		int i1 = 5;
+		String i2 = "hello";
+		
+		System.out.println(i+i1);
+		System.out.println(i+i2);  // 10 + "hello"  ====> "10hello"
+		System.out.println(i2 + i);//  "hello10"
+		System.out.println(i+i1+i2);  // "15hello"
+		System.out.println(i2+i1+i); // "hello510"
+		// string + number + number
+			 // string + number 
+					// string
+		
+		// number + number + string
+				//number + string 
+					// string
+		
+		
+		// program 8 
+		
+		String str11 = "Hello";
+		String str12 = "Bye";
+		System.out.println(str11.concat(str12));
+		
+		
+		// program 9
+		// Repeat 
+		
+		String srt12 = "Hello ";
+		String str14 = srt12.repeat(3);
+		System.out.println(str14);
+		
+		
+		String h1 = "hello";
+		String h2 = "Bye";
+		boolean h33 = h1.equals(h2);
+		System.out.println(h33);
+		
+		
+		// program 10
+		
+		String city16 = "pune";
+		String rev = "";
+		
+		// 0     1      2     3
+		// p     u      n     e
+		// e     n      u     p
+		
+		
+		for(int i11 = 0 ;i11 < city16.length() ; i11++) {
+			//System.out.println(i11);
+			//System.out.println(city16.charAt(i11));
+			
+			rev = city16.charAt(i11) + rev;
+					//	"p"  +  ""  ----> p
+					//   u   +   o  ----> up
+			        //   n   +   up  -----> nup
+			        //   e   +   nup  -----> enup
+			
+			
+		}
+		System.out.println(rev);
+		
+		// Arrays
 		
 		
 		
@@ -89,6 +173,10 @@ public class javaStringR {
 		
 		
 		
+		
+		
+		
+	
 		
 	}
 
