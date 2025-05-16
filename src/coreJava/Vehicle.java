@@ -31,17 +31,8 @@ public class Vehicle {
 		
 		//Vehicle2 audi3 = new Vehicle2();
 		
-		
 		Vehicle2 audi3 = new Vehicle2(12,"color");
-		
 		Vehicle2 audi4 = new Vehicle2("red",43);
-		
-		
-		
-		
-		
-		
-		
 		
 		
 		
@@ -78,16 +69,11 @@ class Vehicle2 {
 	}
 	
 	
-	
-	
-	
 	void displayInfo() {
 		System.out.println(this.color+this.regNo);
 	}
 	
-	
-	
-	
+		
 }
 
 
