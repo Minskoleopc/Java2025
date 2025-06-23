@@ -42,7 +42,6 @@ public class HasMap {
 		
 		
 		// remove
-		
 		mapA.remove(1);
 		System.out.println(mapA);
 		
